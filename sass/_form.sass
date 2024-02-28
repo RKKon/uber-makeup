@@ -1,0 +1,144 @@
+.popup, .popup_calc_end, .popup_engineer
+  display: none
+  position: fixed
+  top: 0
+  left: 0
+  width: 100%
+  height: 100%
+  z-index: 9
+
+.popup_overlay
+  background-color: rgba(0, 0, 0, .5)
+
+.popup_calc_end_content, .popup_content, .popup_engineer_content
+  position: fixed
+  top: 10%
+  left: 50%
+  transform: translateX(-50%)
+  width: 28rem
+  background-color: #fff
+  border-radius: 4%
+.text-center
+  text-align: center
+.popup_calc_end_close, .popup_close, .popup_engineer_close
+  position: absolute
+  top: -1.2rem
+  right: 0rem
+  font-size: 3rem
+  color: #fff
+  border: none
+  background: 0 0
+
+button, input, select, textarea
+  font-family: inherit
+  font-size: inherit
+  line-height: inherit
+
+.faded
+  animation-name: faded
+  animation-duration: 0.8s
+@keyframes faded
+  from
+    opacity: 0.1
+  to
+    opacity: 1
+
+.in_out
+  animation-name: in_out
+  animation-duration: 0.8s
+@keyframes in_out
+  from
+    opacity: 1
+  to
+    opacity: 0.1
+
+.form
+  padding: 1.5rem 3rem
+  text-align: center
+  border-radius: 3%
+  background-color: #211d1d
+.form h2
+  margin-bottom: 3rem
+  font-size: 1.5rem
+  font-family: 'Open Sans', sans-serif
+  font-weight: 700
+  font-style: normal
+  color: #fff
+  line-height: 1.5
+.form_input
+  height: 5.8rem
+  padding: 0
+  margin-bottom: 2rem
+  text-align: center
+  border-radius: 1rem
+  box-sizing: border-box
+  -moz-box-sizing: border-box
+.form-control
+  display: block
+  width: 100%
+  height: 45px
+  padding: 6px 12px
+  font-size: 14px
+  line-height: 1.42857143
+  color: #555
+  background-color: #fff
+  background-image: none
+  border: 1px solid #ccc
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075)
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075)
+  -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s
+  -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s
+  transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s
+.button
+  padding: 1.01rem 0rem
+  font-size: 1.1rem
+  font-family: 'Open Sans', sans-serif
+  font-weight: 700
+  font-style: normal
+  border: 1px solid #ffc600
+  border-radius: 1rem
+  background: linear-gradient(180deg, #ffed26 0, #ffb400 100%)
+  box-shadow: 1px 2px 20px 0 rgba(255, 153, 0, .4)
+.btn-block
+  display: block
+  width: 100%
+.text-uppercase
+  text-transform: uppercase
+.form_notice
+  margin-top: 1rem
+  font-size: 1.1rem
+  color: #fff
+.phone_error
+  display: none
+  font-size: 14px
+  color: red
+  margin-top: -25px
+
+.modal_message_thanks
+  display: block
+  text-align: center
+  margin-bottom: 5px
+
+.modal_message
+  position: fixed
+  top: 30%
+  left: 50%
+  -webkit-transform: translateX(-50%)
+  transform: translateX(-50%)
+  background-color: #211d1d
+  color: #f6f6f6
+  font-size: 2.2rem
+  padding: 10px 40px
+  border-radius: 10px
+  z-index: 13
+
+.thanks_modal_cross
+  position: fixed
+  top: 28%
+  right: 25.5%
+  font-size: 3rem
+  color: #f6f6f6
+  border: none
+  background: 0 0
+  display: block
+  z-index: 20
